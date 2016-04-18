@@ -46,8 +46,10 @@ var schema = new graphql.GraphQLSchema({
   })
 });
 
+var port = process.env.PORT || 8080;
+
 express()
   .use('/graphql', graphqlHTTP({ schema: schema, pretty: true }))
-  .listen(3000);
+  .listen(port);
 
-console.log('GraphQL server running on http://localhost:3000/graphql');
+console.log(`GraphQL server running on http://localhost:${port}/graphql`);
