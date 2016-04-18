@@ -8,5 +8,6 @@ A stupidly simple GraphQL API exploration. (Currently) just two small JSON files
 - [ ] Allow for mutations to Drills' steps (add, remove, reorder)
 - [ ] Create user model
 - [ ] Explore authentication/authorization/security
+- [ ] Tests for the above
 
 But for now, this is just a fun way to explore GraphQL, which seems pretty sweet.
